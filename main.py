@@ -58,39 +58,4 @@ control_x.start()
 
 while True:
    pass
-   # Leemos referencia
-
-   # x_c = queue_x_c.get()
-   # y_c = queue_y_c.get()
-   # # x_ref = queue_x_ref[-1]
-   # # y_ref = queue_y_ref[-1]
-   # x_ref = 320
-   # y_ref = 240
-
-   # #######  CONTROLADOR ########
-   
-   # salida_x = Kx*(x_ref - x_c)
-   # salida_y = Ky*(y_ref - y_c) 
-
-   # angulo_1 = salida_x
-   # angulo_2 = salida_y
-
-   # if salida_x < 0:
-   #    angulo_1 *= -1
-   #    direccion_1 = 0
-   # else:
-   #    direccion_1 = 1
-
-   # if salida_y < 0:
-   #    angulo_2 *= -1
-   #    direccion_2 = 1
-   # else:
-   #    direccion_2 = 0
-
-   # print(angulo_1, angulo_2) 
-   # thread_motor_y = Process(target=move_stepper,args=(dir_1_pin, step_1_pin, angulo_2, frecuencia, direccion_2))
-   # thread_motor_x = Process(target=move_stepper,args=(dir_2_pin, step_2_pin, angulo_1, frecuencia, direccion_1))
-   # thread_motor_y.start()
-   # thread_motor_x.start()
-
    

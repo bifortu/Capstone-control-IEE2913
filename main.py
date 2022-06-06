@@ -16,10 +16,10 @@ host = "172.20.10.6"  # Celular benja
 # host = "192.168.1.137"  # Casa benja
 
 port = 9000
-step_1_pin = 11
-dir_1_pin = 12
-step_2_pin = 15
-dir_2_pin = 16
+step_1_pin = 11   # Este es en y
+dir_1_pin = 12    # Este es en y 
+step_2_pin = 15   # Eje x
+dir_2_pin = 16    # Eje x
 resolucion_y = 640
 resolucion_x = 480
 frecuencia = 5000
